@@ -1,4 +1,4 @@
-// Challenge: use regex to return different values based on whether the first letter of a passed-in word is
+// Challenge: use regex to return different values based on whether the first letter of a passed-in word is a vowel or a consonant
 
 function getLetter(s) {
   let letter;
@@ -37,5 +37,3 @@ console.log(s[0].match(vowels))
   //Make it the last letter and not the first, and set a limit of 100 characters
 
   // Boundary solution:
-
-

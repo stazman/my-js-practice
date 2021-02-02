@@ -7,7 +7,7 @@ function Pet(name, species, gender, age){
   this.age = age;
 }
 
-cash = new Pet("Cash", "dog", "male", 2);
+const cash = new Pet("Cash", "dog", "male", 2);
 
 console.log(cash.name);
 console.log(cash.species);
@@ -27,7 +27,7 @@ function Pet(name, species, gender, age){
 cash = new Pet("Cash", "dog", "male", 2);
 
 
-// But the following will return undefined (because the object's properties were not defined): 
+// But the following will return undefined (because the object's properties were not defined):
 
 console.log(cash.name);
 
