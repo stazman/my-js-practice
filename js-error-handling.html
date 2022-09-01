@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    let numberPrompt = prompt("Enter a number: ");
+
+try {
+
+  if (typeof(numberPrompt)!="number"){
+    throw "Invalid input"
+  } else {
+    console.log("What a great number@")
+  }
+
+} catch(err) {
+
+    console.log(err);
+
+} finally {
+
+    console.log("Hope you're enjoying your day!")
+
+}
+
+document.getElementById("message").innerText = numberPrompt;
+
+  </script>
+</head>
+<body>
+  <p id="message">
+
+  </p>
+</body>
+</html>
